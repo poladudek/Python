@@ -7,8 +7,9 @@ def findingSimilarities(seq_1, seq_2):
     unique_str2 = set(str_2)
 
     for element1 in unique_str1:
-        if element1 in unique_str2:
-            L.append(element1)
+        for element2 in unique_str2:
+            if element1 == element2:
+                L.append(element1)
 
     all_unique_elements = unique_str1.union(unique_str2)
     return L, list(all_unique_elements)
