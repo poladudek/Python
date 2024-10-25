@@ -6,7 +6,7 @@ def drawingMeasure(size):
         if int_num < 10:
             measure_count += f"{int_num}    "
         else:
-            measure_count += f"{int_num}   "
+            measure_count += f"{int_num}   " #dla liczb dwucyfrowych zmniejszony odstep
     measure_drawing += "|"
     measure_full = measure_drawing + "\n" + measure_count
     return measure_full
