@@ -1,0 +1,17 @@
+ZADANIE 3.1: Czy podany kod jest poprawny składniowo w Pythonie? Jeśli nie, to dlaczego?
+
+	1. Składnia jest częściowo niepoprawna poniewż zawiera średniki (;) - program uruchomi się, jednak ich użycie nie jest zalecane
+	2. Składnia jest niepoprawna ponieważ w Pythonie ważne jest formatownie kodu takie jak
+wcięcia w tekście. Instrukcja warunkowa 'if' powinna znajdowć się w kolejnym wierszu pod pętlą 'for' i mieć odpowiednie wcięcie od lewej strony
+	3. Tak, składnia jest poprawna - jest to skrócony zapis if-else.
+
+ZADANIE 3.2: Co jest złego w kodzie:
+
+	1. L = L.sort(). Funkcja sort() sortuje liste, na której zostaje wywołana, a sama zwraca None. Zatem L przyrównane do L.sort() przyjmie 'wartosc' None.
+	2. Próba przypisania większej ilośći literałów (3) do mniejszej ilości zmiennych (2)
+	3. Próba zmiany elementu krotki (nie można zmieniać elementów krotki po jej utworzeniu)
+	4. Przypisanie wartości do indeksu tablicy który nie istnieje (tablica ma indeksy od 0 to 3, a przypisywna wartość jest dla indeksu 4)
+	5. Użycie funkcji append() dla typu String
+	6. Brak jednego z potrzebnych dwóch argumentów dla funkcji pow()
+
+
