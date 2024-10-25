@@ -37,8 +37,8 @@ def roman2int(rom):
     previous_num = 0
 
     for num in reversed(rom): 
-        current_num = rom_to_int.get(num)
-        if current_num < previous_num:
+        current_num = rom_to_int.get(num) # get() pobiera wartosc ze slownika
+        if (current_num < previous_num):
             arabic_int -= current_num
         else:
             arabic_int += current_num
