@@ -1,0 +1,60 @@
+Kopia danych z terminala po uruchomieniu poszczegolnych programow
+--- zad_3.3.py :
+1
+2
+4
+5
+7
+8
+10
+11
+13
+14
+16
+17
+19
+20
+22
+23
+25
+26
+28
+29
+
+
+--- zad_3.4.py :
+Wprowadz liczbe lub wpisz "stop" by przerwac program:   2.5
+Wprowadzona liczba: 2.5, jej trzecia potęga: 15.625
+Wprowadz liczbe lub wpisz "stop" by przerwac program:   s
+Podaj prawidlowa liczbe lub wpisz "stop" aby przerwac program 
+Wprowadz liczbe lub wpisz "stop" by przerwac program:   stop
+
+
+--- zad_3.5.py :
+Wprowadź długość miarki: 15
+|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|
+0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   
+
+
+--- zad_3.6.py :
++---+---+---+---+
+|   |   |   |   |
++---+---+---+---+
+|   |   |   |   |
++---+---+---+---+
+
+
+--- zad_3.8.py :
+Sekwencja pierwsza (liczby): 1234, 3456
+Sekwencja druga (litery): abcddd, defg
+
+Sekwencja pierwsza: Lista elementow wystepujacych jednoczesnie w obu sekwencjach (bez powtorzen): ['4', '3'] Lista wszystkich elementow z obu sekwencji (bez powtorzen): ['5', '3', '6', '1', '2', '4']
+Sekwencja druga: Lista elementow wystepujacych jednoczesnie w obu sekwencjach (bez powtorzen): ['d'] Lista wszystkich elementow z obu sekwencji (bez powtorzen): ['f', 'g', 'd', 'e', 'a', 'c', 'b']
+
+
+--- zad_3.9.py :
+[0, 4, 3, 7, 18]
+
+
+--- zad_3.10.py :
+1994
