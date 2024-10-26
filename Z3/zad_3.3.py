@@ -1,7 +1,10 @@
 def WithoutThreeMultiples(n):
+    full_str = ""
     for num in range(n):
         if num % 3 != 0:
-            print(num)
-
+            full_str += str(num) + " " 
+    return full_str
+    
 n = 30
-WithoutThreeMultiples(n)
+result = WithoutThreeMultiples(n)
+print(result)
