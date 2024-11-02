@@ -10,5 +10,9 @@ def fibonacci(n):
         b = result
     return result
 
+expected_result = 3
 result = fibonacci(4)
+
+assert result == expected_result, f"Wynik oczekiwany:\n{expected_result}\nWynik otrzymany:\n{result}"
+
 print(result)
