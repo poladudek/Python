@@ -111,10 +111,10 @@ class SingleList:
         before = None
         current = node
         while current:
-            next_node = current.next
+            nextNode = current.next
             current.next = before
             before = current 
-            current = next_node 
+            current = nextNode 
         return before
 
 
